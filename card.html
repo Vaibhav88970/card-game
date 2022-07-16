@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="card.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="background">
+
+    <div class="player">
+        <h2 class="r">You</h2>
+    <div class="card you" id="back">
+        <span></span>
+    </div>
+    <h2 class="score" id="you">score <span>0</span></h2>
+    </div>
+    <div class="deck">
+       <div class="heading"><h2>WAR GAME</h2></div>
+        <div class="board">
+            <div class="deck_of_card">
+                <div class="A1">
+                    <img src="https://tse4.mm.bing.net/th?id=OIP.Bs9EpXBvazxnWrM4x2LtEwHaKi&pid=Api&P=0&w=114&h=162" >
+                </div>
+                <div class="A2"><img src="https://tse4.mm.bing.net/th?id=OIP.Bs9EpXBvazxnWrM4x2LtEwHaKi&pid=Api&P=0&w=114&h=162" ></div>
+                <div class="A3"><img src="https://tse4.mm.bing.net/th?id=OIP.Bs9EpXBvazxnWrM4x2LtEwHaKi&pid=Api&P=0&w=114&h=162" ></div>
+                <div class="A4"><img src="https://tse4.mm.bing.net/th?id=OIP.Bs9EpXBvazxnWrM4x2LtEwHaKi&pid=Api&P=0&w=114&h=162" ></div>
+                <div class="A5"><img src="https://tse4.mm.bing.net/th?id=OIP.Bs9EpXBvazxnWrM4x2LtEwHaKi&pid=Api&P=0&w=114&h=162" ></div>
+                <div class="A6"><img src="https://tse4.mm.bing.net/th?id=OIP.Bs9EpXBvazxnWrM4x2LtEwHaKi&pid=Api&P=0&w=114&h=162" ></div>
+                <div class="A7"><img src="https://tse4.mm.bing.net/th?id=OIP.Bs9EpXBvazxnWrM4x2LtEwHaKi&pid=Api&P=0&w=114&h=162" ></div>
+            </div>
+               <div class="func">  
+               <button class="shuffle">Shuffle</button>
+               <button class="distribute">Distribute</button>
+               <button class="show">Show</button>
+               </div>   
+        </div>
+
+        <div class="restart">
+            <button id="rs">Restart</button>
+        </div>
+    </div>
+    <div class="computer">
+        <h2>Computer</h2>
+        <div class="card comp" id="cback"> <span></span></div>
+        <h2 class="score" id="comp">score <span>0</span></h2>   
+    </div>
+</div>
+
+    <script src="card.js"></script>
+</body>
+</html>
